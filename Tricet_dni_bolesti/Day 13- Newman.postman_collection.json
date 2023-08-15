@@ -5,7 +5,7 @@
 		"description": "## Instructions for Day 13: Newman\n\n1.  **Get the challenge:** Fork [the parent collection `Day 13: Newman`](https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/documentation/1559645-a509b7b4-4b46-4593-9dec-2bafbe7d9524) from the main workspace to your own public workspace.\n2.  **Read the documentation:** In your fork, select the first folder. Expand the context bar on the right to follow the instructions in the collection documentation.\n3.  **Submit your solution:** Select the second folder `Submit your solution` and follow the instructions in the documentation to validate your solution.\n    \n\n## Concepts covered\n\n*   [Variables](https://learning.postman.com/docs/sending-requests/variables/)\n*   [Scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/)\n*   [Writing tests](https://learning.postman.com/docs/writing-scripts/test-scripts/)\n*   [Running collections on the command line with Newman](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)\n    \n\n## Additional resources\n\n*   [Newman on GitHub](https://github.com/postmanlabs/newman)\n*   [Newman on npm](https://www.npmjs.com/package/newman)\n*   [Newman](https://www.tiktok.com/@joycejetson/video/7067909067594894638) tiktok\n    \n\n## Next challenge\n\n*   [OAuth](https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/documentation/1559645-0e372950-c58c-483d-aea9-fe676547e6f0)",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "28759736",
-		"_collection_link": "https://www.postman.com/martinrohr/workspace/ticet-dn-bolesti/collection/28759736-4b285ead-a98c-4295-8db3-7b8d47f0c9b9?action=share&source=collection_link&creator=28759736"
+		"_collection_link": "https://www.postman.com/martinrohrteam/workspace/ticet-dn-bolesti/collection/28759736-4b285ead-a98c-4295-8db3-7b8d47f0c9b9?action=share&source=collection_link&creator=28759736"
 	},
 	"item": [
 		{
@@ -244,7 +244,7 @@
 							}
 						],
 						"url": {
-							"raw": "https://api.getpostman.com/collections/{{collectionUid}}",
+							"raw": "https://api.getpostman.com/collections/28759736-4b285ead-a98c-4295-8db3-7b8d47f0c9b9",
 							"protocol": "https",
 							"host": [
 								"api",
@@ -253,7 +253,7 @@
 							],
 							"path": [
 								"collections",
-								"{{collectionUid}}"
+								"28759736-4b285ead-a98c-4295-8db3-7b8d47f0c9b9"
 							]
 						},
 						"description": "It's time to submit your solution.\n\n1. **Use a Postman environment :** Find the `Postman API env` environment from the previous challenge. Update the `collectionUid` with the current collection's ID, so Postman will update the request URL.\n1. **Validate your solution in the Runner**: Save your changes in the collection and environment. Hit **Send** and look under the Tests tab of the server response at the bottom to review your test results.\n1. **Validate your solution in Newman** (optional): Instead of running this request in Postman, you can use Newman to validate your solution from the command line. You may need to do some research on this one. There's many ways to handle sensitive information locally while running Newman, but be careful not to expose your secrets in your public workspace.\n\nIf you have any failures, review the failed test results or ask for support in the [community forum](https://community.postman.com/). When all of your tests pass, you are done with today's challenge. Remember to save your changes as you'll need to pass all the challenges to claim a **30 days of Postman** badge."
@@ -287,7 +287,7 @@
 	"variable": [
 		{
 			"key": "talls",
-			"value": ""
+			"value": 7
 		}
 	]
 }
